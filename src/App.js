@@ -1,14 +1,8 @@
-import './App.css';
-import Application from './components/application';
-import Application2 from './components/application2';
+import "./App.css";
+import Application from "./components/application";
 
 function App() {
-  return (
-    <>
-     {/* {<Application/>}  */}
-     {<Application2/>}
-    </>
-  );
+  return <>{<Application />}</>;
 }
 
 export default App;
